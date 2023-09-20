@@ -17,7 +17,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
   color: #434455;
   background-color: var(--WHITE);
   line-height: 1.5;
@@ -46,6 +45,25 @@ h3 {
   font-size: 20px;
 }
 
+img {
+  display: block;
+}
+
+.header{
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container:first-child{
+  display: flex;
+}
+
+.container{
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+}
+
 .link {
   font-size: .75rem;
   line-height: 1.5;
@@ -55,9 +73,10 @@ h3 {
 }
 
 /* NAV */
-nav {
-  justify-content: space-between;
-  margin: 0 6rem;
+.navigate {
+  display: flex;
+  align-items: center;
+
 }
 
 .logo {
@@ -68,6 +87,8 @@ nav {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--IRIS);
+  margin-right: 76px;
+
 }
 
 header .logo-second {
@@ -76,6 +97,13 @@ header .logo-second {
 
 .list {
   list-style: none;
+  display: flex;
+  gap: 40px;
+
+}
+.list-item{
+  padding: 24px 0;
+
 }
 
 .adr {
@@ -84,6 +112,10 @@ header .logo-second {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--SLATE)
+}
+.li-address{
+  display: flex;
+  gap: 40px;
 }
 
 .list-item>a {
@@ -214,5 +246,5 @@ footer {
 }
 
 .logo-second {
-  color:var(--CLOUD);
+  color: var(--CLOUD);
 }
