@@ -72,6 +72,12 @@ img {
   font-size: 16px;
 }
 
+.btn {
+  background-color: var(--IRIS);
+  color: var(--WHITE);
+  cursor: pointer;
+}
+
 /* NAV */
 .navigate {
   display: flex;
@@ -151,6 +157,7 @@ address a {
 }
 
 /* Main Page - Studio */
+/* section 1 */
 .hero {
   background-color: var(--NAVY-BLUE);
   padding: 188px 0;
@@ -165,15 +172,13 @@ address a {
   max-width: 496px;
 }
 
-.hero>.btn {
-  background-color: var(--IRIS);
-  color: var(--WHITE);
+.hero-btn {
   display: block;
   min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
+
 }
 
 /* section 2 */
@@ -187,7 +192,7 @@ address a {
   color: var(--NAVY-BLUE);
 }
 
-.li-section-second {
+.ul-section-second>li {
   width: calc((100% - 72px) / 4);
 }
 
@@ -217,7 +222,7 @@ address a {
   margin-bottom: 72px;
 }
 
-.li-section-third {
+.ul-section-third>li {
   width: calc((100% - 48px) / 3);
 }
 
@@ -234,9 +239,9 @@ address a {
   border-radius: 0px 0px 4px 4px;
 }
 
-.container-team{
+.container-team {
   padding: 32px 0;
-  }
+}
 
 /* FILTERS */
 .filters ul {
