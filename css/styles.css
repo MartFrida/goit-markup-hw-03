@@ -49,15 +49,15 @@ img {
   display: block;
 }
 
-.header{
+.header {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container:first-child{
+.header-container:first-child {
   display: flex;
 }
 
-.container{
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -97,13 +97,15 @@ header .logo-second {
 
 .list {
   list-style: none;
+}
+
+.menu {
   display: flex;
   gap: 40px;
-
 }
-.list-item{
-  padding: 24px 0;
 
+.menu-item {
+  padding: 24px 0;
 }
 
 .adr {
@@ -113,9 +115,15 @@ header .logo-second {
   letter-spacing: 0.02em;
   color: var(--SLATE)
 }
-.li-address{
+
+.li-address {
   display: flex;
   gap: 40px;
+}
+
+.list {
+  display: flex;
+  gap: 24px
 }
 
 .list-item>a {
@@ -144,12 +152,9 @@ address a {
 
 /* Main Page - Studio */
 .hero {
-  background-color: var(--NAVY-BLUE)
-}
+  background-color: var(--NAVY-BLUE);
+  padding: 188px 0;
 
-.hero>.btn {
-  background-color: var(--IRIS);
-  color: var(--WHITE);
 }
 
 .hero-header {
@@ -157,6 +162,23 @@ address a {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--WHITE);
+  max-width: 496px;
+}
+
+.hero>.btn {
+  background-color: var(--IRIS);
+  color: var(--WHITE);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* section 2 */
+.section-second {
+  padding: 120px 0;
 }
 
 .header-section-second {
@@ -165,8 +187,25 @@ address a {
   color: var(--NAVY-BLUE);
 }
 
-.section-second .p-card {
+.li-section-second {
+  width: calc((100% - 72px) / 4);
+}
+
+.p-card {
   color: var(--SLATE);
+}
+
+.section-second .header-card {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE);
+  margin-bottom: 8px;
+
+}
+
+/* section 3 */
+.section-third {
+  padding-bottom: 120px;
 }
 
 .header-second {
@@ -175,21 +214,29 @@ address a {
   text-transform: capitalize;
   color: var(--NAVY-BLUE);
   letter-spacing: 0.02em;
+  margin-bottom: 72px;
 }
 
+.li-section-third {
+  width: calc((100% - 48px) / 3);
+}
+
+/* section 4 Our Team */
 .section-team {
   background-color: var(--CLOUD);
-}
+  padding: 120px 0;
 
-.header-card {
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--NAVY-BLUE);
 }
 
 .team_card {
   background-color: var(--WHITE);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
+
+.container-team{
+  padding: 32px 0;
+  }
 
 /* FILTERS */
 .filters ul {
