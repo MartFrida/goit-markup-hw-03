@@ -112,12 +112,12 @@ header .logo-second {
   gap: 40px;
   padding: 24px 0;
 }
-
-.list-item {
+ 
+.link-item-header{
   padding: 24px 0;
 }
 
-.list-item>a {
+.list-item > a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -162,7 +162,6 @@ address a {
 .hero {
   background-color: var(--NAVY-BLUE);
   padding: 188px 0;
-
 }
 
 .hero-header {
@@ -180,7 +179,6 @@ address a {
   border: none;
   border-radius: 4px;
   background-color: var(--IRIS);
-
 }
 
 /* section 2 */
