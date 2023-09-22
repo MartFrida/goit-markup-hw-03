@@ -76,6 +76,7 @@ img {
   background-color: var(--IRIS);
   color: var(--WHITE);
   cursor: pointer;
+  border: none;
 }
 
 /* NAV */
@@ -176,8 +177,9 @@ address a {
   display: block;
   min-width: 169px;
   height: 56px;
-  border: none;
+  /* border: none; */
   border-radius: 4px;
+  /* background-color: var(--IRIS); */
 
 }
 
@@ -192,7 +194,21 @@ address a {
   color: var(--NAVY-BLUE);
 }
 
-.ul-section-second>li {
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.li-section-second {
   width: calc((100% - 72px) / 4);
 }
 
@@ -222,7 +238,7 @@ address a {
   margin-bottom: 72px;
 }
 
-.ul-section-third>li {
+.li-section-third {
   width: calc((100% - 48px) / 3);
 }
 
