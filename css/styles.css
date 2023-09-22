@@ -148,9 +148,10 @@ header .logo-second {
   /* text-decoration: underline var(--NAVY-BLUE); */
 }
 
-.ul-address{
+.ul-address {
   gap: 40px;
 }
+
 address a {
   color: var(--SLATE);
   margin-right: 1rem;
@@ -200,7 +201,6 @@ address a {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -208,7 +208,8 @@ address a {
 }
 
 .li-section-second {
-  width: calc((100% - 72px) / 4);
+  /* width: calc((100% - 72px) / 4); */
+  flex-basis: calc((100%-3*24px)/4);
 }
 
 .p-card {
@@ -237,7 +238,8 @@ address a {
 }
 
 .li-section-third {
-  width: calc((100% - 48px) / 3);
+  /* width: calc((100% - 48px) / 3); */
+  flex-basis: calc((100%-3*16px)/3);
 }
 
 /* section 4 Our Team */
@@ -282,9 +284,9 @@ address a {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-  }
+}
 
-  .ul-filter .btn {
+.ul-filter .btn {
   margin-right: 2rem;
   background-color: var(--CLOUD);
   border: 1px solid var(--CORNFLOWER);
@@ -300,6 +302,7 @@ address a {
   border: 1px solid var(--CORNFLOWER);
   border-radius: 4px;
 }
+
 /* .btn-filter{
   padding: 12px 24px;
   border: 1px solid var(--CORNFLOWER);
@@ -315,21 +318,24 @@ address a {
 }
 
 /* ul-wrap*/
-.ul-wrap{
+.ul-wrap {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
 
-.ul-wrap .project-card{
+.project-card {
   width: calc((100% - 48px) / 3);
+  width: calc((100%-48px)/3);
 }
-.shot-description-cart{
+
+.shot-description-cart {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
 .header-card-content {
   font-size: 20px;
   line-height: 1.2;
@@ -337,7 +343,7 @@ address a {
   color: var(--NAVY-BLUE);
   font-weight: 500;
   margin-bottom: 8px;
-  
+
 }
 
 .p-card-content {
