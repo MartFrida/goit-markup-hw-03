@@ -112,12 +112,12 @@ header .logo-second {
   gap: 40px;
   padding: 24px 0;
 }
- 
-.link-item-header{
+
+.link-item-header {
   padding: 24px 0;
 }
 
-.list-item > a {
+.list-item>a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -205,9 +205,9 @@ address a {
   overflow: hidden;
 }
 
-.li-section-second {
-  /* width: calc((100% - 72px) / 4); */
-  flex-basis: calc((100%-3*24px)/4);
+.ul-section-second > .li-section-second {
+  width: calc((100% - 72px) / 4);
+  /* flex-basis: calc((100%-3*24px)/4); */
 }
 
 .p-card {
@@ -325,7 +325,6 @@ address a {
 
 .project-card {
   width: calc((100% - 48px) / 3);
-  width: calc((100%-48px)/3);
 }
 
 .shot-description-cart {
