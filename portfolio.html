@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
@@ -44,97 +46,111 @@
     </div>
   </header>
   <main>
-    <section>
-      <h1>Will hide text</h1>
-      <!-- filters -->
-      <ul class="list filters">
-        <li>
-          <button type="button" class="btn">All</button>
-        </li>
-        <li>
-          <button type="button" class="btn"> Web Site</button>
-        </li>
-        <li>
-          <button type="button" class="btn"> App</button>
-        </li>
-        <li>
-          <button type="button" class="btn"> Design</button>
-        </li>
-        <li>
-          <button type="button" class="btn"> Marketing</button>
-        </li>
-      </ul>
+    <section class="main">
+      <div class="container">
+        <h1 class="visually-hidden">Will hide text</h1>
+        <!-- filters -->
+        <ul class="list ul-filter">
+          <li>
+            <button type="button" class="btn">All</button>
+          </li>
+          <li>
+            <button type="button" class="btn"> Web Site</button>
+          </li>
+          <li>
+            <button type="button" class="btn"> App</button>
+          </li>
+          <li>
+            <button type="button" class="btn"> Design</button>
+          </li>
+          <li>
+            <button type="button" class="btn"> Marketing</button>
+          </li>
+        </ul>
 
-      <ul class="list row">
-        <li class="project-card">
-          <a class="link"><img src="./images/img.jpg" width="360" alt="img">
-            <h2 class="header-card-content">Banking App Interface Concept</h2>
-            <p class="p-card-content">App</p>
-          </a>
+        <ul class="list ul-wrap">
+          <li class="project-card">
+            <a class="link"><img src="./images/img.jpg" width="360" alt="img">
+              <div class="shot-description-cart">
+                <h2 class="header-card-content">Banking App Interface Concept</h2>
+                <p class="p-card-content">App</p>
+              </div>
+            </a>
+          </li>
 
-        </li>
-        <li class=" project-card">
-          <a class="link"><img src="./images/img122.jpg" width="360" alt="img">
-            <h2 class="header-card-content">Cashless Payment</h2>
-            <p class="p-card-content">Marketing</p>
-          </a>
+          <li class=" project-card">
+            <a class="link"><img src="./images/img122.jpg" width="360" alt="img">
+              <div class="shot-description-cart">
+                <h2 class="header-card-content">Cashless Payment</h2>
+                <p class="p-card-content">Marketing</p>
+              </div>
+            </a>
+          </li>
+          <li class=" project-card">
+            <a class="link"><img src="./images/img22.jpg" width="360" alt="img">
+              <div class="shot-description-cart">
+                <h2 class="header-card-content">Meditation App</h2>
+                <p class="p-card-content">App</p>
+              </div>
+            </a>
+          </li>
 
-        </li>
-        <li class=" project-card">
-          <a class="link"><img src="./images/img22.jpg" width="360" alt="img">
-            <h2 class="header-card-content">Meditation App</h2>
-            <p class="p-card-content">App</p>
-          </a>
+          <li class=" project-card">
+            <a class="link"> <img src="./images/img32.jpg" width="360" alt="img">
+              <div class="shot-description-cart">
+                <h2 class="header-card-content">Taxi Service</h2>
+                <p class="p-card-content">Marketing</p>
+              </div>
+            </a>
+          </li>
 
-        </li>
-        <li class=" project-card">
-          <a class="link"> <img src="./images/img32.jpg" width="360" alt="img">
-            <h2 class="header-card-content">Taxi Service</h2>
-            <p class="p-card-content">Marketing</p>
-          </a>
+          <li class=" project-card">
+            <a class="link"><img src="./images/img42.jpg" width="360" alt="img">
+              <div class="shot-description-cart">
+                <h2 class="header-card-content">Screen Illustrations</h2>
+                <p class="p-card-content">Design</p>
+              </div>
+            </a>
+          </li>
 
-        </li>
-        <li class=" project-card">
-          <a class="link"><img src="./images/img42.jpg" width="360" alt="img">
-            <h2 class="header-card-content">Screen Illustrations</h2>
-            <p class="p-card-content">Design</p>
-          </a>
+          <li class=" project-card">
+            <a class="link"><img src="./images/img52.jpg" width="360" alt="img">
+              <div class="shot-description-cart">
+                <h2 class="header-card-content">Online Courses</h2>
+                <p class="p-card-content">Marketing</p>
+              </div>
+            </a>
 
-        </li>
+          </li>
 
-        <li class=" project-card">
-          <a class="link"><img src="./images/img52.jpg" width="360" alt="img">
-            <h2 class="header-card-content">Online Courses</h2>
-            <p class="p-card-content">Marketing</p>
-          </a>
+          <li class="project-card">
+            <a class="link"><img src="./images/img62.jpg" width="360" alt="img">
+              <div class="shot-description-cart">
+                <h2 class="header-card-content">Instagram Stories Concept</h2>
+                <p class="p-card-content">Design</p>
+              </div>
+            </a>
+          </li>
 
-        </li>
+          <li class=" project-card">
+            <a class="link"><img src="./images/img72.jpg" width="360" alt="img">
+              <div class="shot-description-cart">
+                <p class="p-card-content">Web Site</p>
+                <h2 class="header-card-content">Organic Food</h2>
+              </div>
+            </a>
+          </li>
 
-        <li class="project-card">
-          <a class="link"><img src="./images/img62.jpg" width="360" alt="img">
-            <h2 class="header-card-content">Instagram Stories Concept</h2>
-            <p class="p-card-content">Design</p>
-          </a>
-
-        </li>
-
-        <li class=" project-card">
-          <a class="link"><img src="./images/img72.jpg" width="360" alt="img">
-            <h2 class="header-card-content">Organic Food</h2>
-            <p class="p-card-content">Web Site</p>
-          </a>
-
-        </li>
-
-        <li class=" project-card">
-          <a class="link"> <img src="./images/img82.jpg" width="360" alt="img">
-            <h2 class="header-card-content">Fresh Coffee</h2>
-            <p class="p-card-content">Web Site</p>
-          </a>
-
-        </li>
-      </ul>
-
+          <li class=" project-card">
+            <a class="link"> <img src="./images/img82.jpg" width="360" alt="img">
+              <div class="shot-description-cart">
+                <h2 class="header-card-content">Fresh Coffee</h2>
+                <p class="p-card-content">Web Site</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
   </main>
   <footer class="footer">
