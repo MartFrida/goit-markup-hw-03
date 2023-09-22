@@ -113,9 +113,9 @@ header .logo-second {
   padding: 24px 0;
 }
 
-/* .list-item {
+.list-item {
   padding: 24px 0;
-} */
+}
 
 .list-item>a {
   font-size: 16px;
@@ -148,7 +148,9 @@ header .logo-second {
   /* text-decoration: underline var(--NAVY-BLUE); */
 }
 
-
+.ul-address{
+  gap: 40px;
+}
 address a {
   color: var(--SLATE);
   margin-right: 1rem;
@@ -247,7 +249,8 @@ address a {
 
 .team_card {
   background-color: var(--WHITE);
-  width: calc((100% - 72px) / 4);
+  /* width: calc((100% - 72px) / 4); */
+  flex-basis: calc((100%-24*3)/4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -271,6 +274,7 @@ address a {
   padding-bottom: 120px;
 }
 
+
 /* FILTERS */
 .ul-filter {
   justify-content: center;
@@ -280,7 +284,7 @@ address a {
   margin-bottom: 72px;
   }
 
-.filters>.btn {
+  .ul-filter .btn {
   margin-right: 2rem;
   background-color: var(--CLOUD);
   border: 1px solid var(--CORNFLOWER);
@@ -298,7 +302,8 @@ address a {
 }
 /* .btn-filter{
   padding: 12px 24px;
-  border: 1px solid var(--CORNFLOWER)
+  border: 1px solid var(--CORNFLOWER);
+  border-radius: 4px;
 } */
 
 .btn:active,
@@ -314,9 +319,10 @@ address a {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
+  row-gap: 48px;
 }
 
-.project-card{
+.ul-wrap .project-card{
   width: calc((100% - 48px) / 3);
 }
 .shot-description-cart{
