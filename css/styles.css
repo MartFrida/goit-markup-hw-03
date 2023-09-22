@@ -205,9 +205,9 @@ address a {
   overflow: hidden;
 }
 
-.ul-section-second > .li-section-second {
-  width: calc((100% - 72px) / 4);
-  /* flex-basis: calc((100%-3*24px)/4); */
+.ul-section-second>.li-section-second {
+  /* width: calc((100% - 72px) / 4); */
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .p-card {
@@ -237,7 +237,7 @@ address a {
 
 .li-section-third {
   /* width: calc((100% - 48px) / 3); */
-  flex-basis: calc((100%-3*16px)/3);
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 /* section 4 Our Team */
