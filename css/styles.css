@@ -76,7 +76,7 @@ img {
   background-color: var(--IRIS);
   color: var(--WHITE);
   cursor: pointer;
-  }
+}
 
 /* NAV */
 .navigate {
@@ -110,11 +110,12 @@ header .logo-second {
 .menu {
   display: flex;
   gap: 40px;
-}
-
-.list-item {
   padding: 24px 0;
 }
+
+/* .list-item {
+  padding: 24px 0;
+} */
 
 .list-item>a {
   font-size: 16px;
@@ -197,7 +198,7 @@ address a {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -251,8 +252,17 @@ address a {
   border-radius: 0px 0px 4px 4px;
 }
 
-.container-team {
+.container-employee {
   padding: 32px 0;
+}
+
+.header-card {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.p-card {
+  text-align: center;
 }
 
 /* FILTERS */
@@ -260,7 +270,7 @@ address a {
   justify-content: center;
 }
 
-.filters > .btn {
+.filters>.btn {
   margin-right: 2rem;
   background-color: var(--CLOUD);
   border: 1px solid var(--CORNFLOWER);
