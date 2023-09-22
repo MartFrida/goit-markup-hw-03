@@ -205,7 +205,12 @@ address a {
   overflow: hidden;
 }
 
-.ul-section-second>.li-section-second {
+.ul-section-second{
+  display: flex;
+  gap: 24px;
+}
+
+.li-section-second {
   /* width: calc((100% - 72px) / 4); */
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
