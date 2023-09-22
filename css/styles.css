@@ -218,7 +218,6 @@ address a {
   letter-spacing: 0.02em;
   color: var(--NAVY-BLUE);
   margin-bottom: 8px;
-
 }
 
 /* section 3 */
@@ -309,14 +308,21 @@ address a {
 }
 
 /* FOOTER */
-footer {
+.footer {
   background-color: var(--NAVY-BLUE);
+  padding: 100px 0;
+
+}
+.a-footer{
+  display: inline-block;
+  margin-bottom: 16px; 
 }
 
 .p-footer {
   line-height: 1.5;
   color: var(--CLOUD);
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .logo-second {
