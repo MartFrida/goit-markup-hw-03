@@ -205,17 +205,17 @@ address a {
   overflow: hidden;
 }
 
-.ul-section-second{
+.list-section-second{
   display: flex;
   gap: 24px;
 }
 
-.li-section-second {
+.item-section-second {
   /* width: calc((100% - 72px) / 4); */
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-.p-card {
+.text-card {
   color: var(--SLATE);
 }
 
@@ -240,7 +240,7 @@ address a {
   margin-bottom: 72px;
 }
 
-.li-section-third {
+.item-section-third {
   /* width: calc((100% - 48px) / 3); */
   flex-basis: calc((100% - 3 * 16px) / 3);
 }
@@ -268,7 +268,7 @@ address a {
   margin-bottom: 8px;
 }
 
-.p-card {
+.text-card {
   text-align: center;
 }
 
@@ -348,7 +348,7 @@ address a {
 
 }
 
-.p-card-content {
+.text-card-content {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
