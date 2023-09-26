@@ -25,24 +25,30 @@ body {
 
 a {
   text-decoration: none;
-
 }
 
 h1 {
   font-weight: bold;
   font-size: 56px;
   line-height: 60px;
+  margin: 0;
 }
 
 h2 {
   font-weight: bold;
   font-size: 36px;
-
+  margin: 0;
 }
 
 h3 {
   font-weight: 500;
   font-size: 20px;
+  margin: 0;
+}
+
+p,
+ul {
+  margin: 0;
 }
 
 img {
@@ -53,8 +59,9 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container:first-child {
+.header-container {
   display: flex;
+  align-items: center;
 }
 
 .container {
@@ -77,6 +84,7 @@ img {
   color: var(--WHITE);
   cursor: pointer;
 }
+
 
 /* NAV */
 .navigate {
@@ -105,6 +113,7 @@ header .logo-second {
   list-style: none;
   display: flex;
   gap: 24px;
+  padding: 0;
 }
 
 .menu {
@@ -134,7 +143,8 @@ header .logo-second {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--SLATE)
+  color: var(--SLATE);
+  margin-left: auto;
 }
 
 .li-address {
@@ -154,7 +164,6 @@ header .logo-second {
 
 address a {
   color: var(--SLATE);
-  margin-right: 1rem;
 }
 
 /* Main Page - Studio */
@@ -170,6 +179,7 @@ address a {
   letter-spacing: 0.02em;
   color: var(--WHITE);
   max-width: 496px;
+  margin: 0 auto;
 }
 
 .hero-btn {
@@ -179,6 +189,7 @@ address a {
   border: none;
   border-radius: 4px;
   background-color: var(--IRIS);
+  margin: 48px auto 0;
 }
 
 /* section 2 */
@@ -205,7 +216,7 @@ address a {
   overflow: hidden;
 }
 
-.list-section-second{
+.list-section-second {
   display: flex;
   gap: 24px;
 }
@@ -217,6 +228,7 @@ address a {
 
 .text-card {
   color: var(--SLATE);
+
 }
 
 .section-second .header-card {
@@ -224,6 +236,7 @@ address a {
   letter-spacing: 0.02em;
   color: var(--NAVY-BLUE);
   margin-bottom: 8px;
+  text-align: left;
 }
 
 /* section 3 */
@@ -252,7 +265,7 @@ address a {
 
 }
 
-.team_card {
+.item-team-card {
   background-color: var(--WHITE);
   /* width: calc((100% - 72px) / 4); */
   flex-basis: calc((100%-24*3)/4);
@@ -263,12 +276,12 @@ address a {
   padding: 32px 0;
 }
 
-.header-card {
+.header-employee {
   text-align: center;
   margin-bottom: 8px;
 }
 
-.text-card {
+.text-employee {
   text-align: center;
 }
 
@@ -287,10 +300,9 @@ address a {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-}
+  }
 
 .ul-filter .btn {
-  margin-right: 2rem;
   background-color: var(--CLOUD);
   border: 1px solid var(--CORNFLOWER);
   color: var(--IRIS);
@@ -362,16 +374,17 @@ address a {
 
 }
 
-.a-footer {
+.link-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
 
-.p-footer {
+.text-footer {
   line-height: 1.5;
   color: var(--CLOUD);
   letter-spacing: 0.02em;
   max-width: 264px;
+
 }
 
 .logo-second {
